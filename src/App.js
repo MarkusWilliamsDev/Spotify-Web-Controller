@@ -1,5 +1,12 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 export default function App() {
-	return <h1 className="text-3xl font-bold underline">Hello Tailwind!</h1>;
+  return (
+    <div>
+      <h1>Bookkeeper</h1>
+      <nav>
+        <Link to="/controller">Controller</Link>
+      </nav>
+    </div>
+  );
 }
